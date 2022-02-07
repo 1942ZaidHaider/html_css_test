@@ -48,13 +48,10 @@ body{
     grid-gap:0px 0px;
     grid-column-gap:0px;
 }
-#dots:after{
-    position: absolute;
-    left: 20px; /* <-- align the circle horizontally */
-    top: 0;     /* <-- Added declaration             */
-    content: '';
-    background-color: grey;
-    border-radius: 5px;
-    font-size: 0;    
-    padding: 5px;
+#dots{
+    position:absolute;
+    color: #808085;
+    left: 20px;
+    top: 20px;
+    font-size: 25px;
 }
